@@ -3,14 +3,14 @@ import joblib
 
 ############################# Barra Lateral##############################    
 
-st.sidebar.image("imagenes/logo_isil_principal.jpg", caption="Aplicación de Modelo de Clasificación | Despliegue en Streamlit")
+st.sidebar.image("BCP.jpg", caption="Aplicación de Modelo de Clasificación | Despliegue en Streamlit")
 
 #############################Pagina 1##############################    
 
 def page1():
     st.header('Predicción del dataset Iris 🍀', divider='rainbow')
     
-    st.info("Dr. Jesus Alvarado Huayhuaz") 
+    st.info("Marcelo Herrera") 
     
     st.write("""
     El dataset Iris es uno de los conjuntos de datos más conocidos y utilizados en estadística, reconocimiento de patrones e inteligencia artificial. Fue introducido por el botánico y estadístico Ronald A. Fisher en 1936, en su artículo “The Use of Multiple Measurements in Taxonomic Problems”. Su objetivo original era demostrar el uso del análisis discriminante para clasificar especies de plantas a partir de mediciones morfológicas.
