@@ -24,7 +24,7 @@ def page1():
     - Iris virginica
     """ )
     
-    st.image("imagenes/iris_dataset.png",
+    st.image("iris_dataset.png",
                      caption="Dataset Iris")
     
     st.write("""
@@ -57,9 +57,9 @@ def page1():
 def page2():
     st.header('Predicción del dataset Iris 🍀', divider='rainbow')
     
-    st.info("Dr. Jesus Alvarado Huayhuaz")
+    st.info("Marcelo Herrera")
     
-    st.image("imagenes/iris_dataset.png", caption="Dataset Iris")
+    st.image("iris_dataset.png", caption="Dataset Iris")
     
     st.write("Ingresa las características de la flor:")
 
