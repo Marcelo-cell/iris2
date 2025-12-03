@@ -73,9 +73,9 @@ def page2():
     # Cargar modelos Iris
     # ============================
     
-    knn_model = joblib.load('./model/modelo_iris_knn.pkl')
-    svm_model = joblib.load('./model/modelo_iris_svm.pkl')
-    tree_model = joblib.load('./model/modelo_iris_arbol.pkl')
+    knn_model = joblib.load('modelo_iris_knn.pkl')
+    svm_model = joblib.load('modelo_iris_svm.pkl')
+    tree_model = joblib.load('modelo_iris_arbol.pkl')
     
     # Campos de entrada numéricos
     sepal_length = st.number_input('sepal length (cm)', min_value=0.0, max_value=10.0, step=0.1, value=5.9)
